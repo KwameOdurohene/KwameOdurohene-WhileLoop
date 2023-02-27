@@ -1,5 +1,7 @@
 
 public class Lab {
+    private Object i;
+
     /**
      * A while loop uses a conditional statement (within parentheses) and runs the code {within curly braces}
      * as long as the conditional is true.
@@ -33,11 +35,16 @@ public class Lab {
      *
      **/
     public int whileExample(int end){
-        int sum = 0;
-        int i = 0;
-
-//        code here
-
-        return sum;
+//   code here
+    int i = 0;
+    int sum = 0;
+    while (i < end) {
+    sum = sum + i;
+    i = i + 1;
     }
+    return sum;
+    }
+
+    
+       
 }
